@@ -64,7 +64,7 @@ class User extends Authenticatable
 
     public function departments()
     {
-        return $this->belongsToMany(Departament::class);
+        return $this->belongsToMany(Department::class);
     }
 
     public function holidays()
